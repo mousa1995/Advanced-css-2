@@ -3,6 +3,8 @@
   background-image: linear-gradient(to right bottom, 
   rgba($color-primary-light, .8),
   rgba($color-primary-dark, .8)), url('../img/hero.jpg');
+  background-position: top;
+  background-size: cover;
   position: relative;
 
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 84%, 0% 100%);
@@ -26,6 +28,8 @@
       display: block;
       font-size: 6rem;
       letter-spacing: 3.5rem;
+      animation-name: chapBeRast;
+      animation-duration: 2s;
     }
 
     &-sub{
@@ -33,6 +37,7 @@
       display: block;
       font-size: 2rem;
       letter-spacing: 1.3rem;
+      animation: rastBeChap 2s;
     }
   }
 
@@ -45,4 +50,6 @@
   &__logo-photo{
     height: 3rem;
   }
+
+  
 }
