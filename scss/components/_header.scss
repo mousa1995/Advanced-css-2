@@ -22,6 +22,7 @@
   &__h{
     color: $color-white;
     text-align: center; 
+    backface-visibility: hidden;
     
     &-primary{
       text-transform: uppercase;

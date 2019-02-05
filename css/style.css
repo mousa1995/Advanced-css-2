@@ -29,7 +29,8 @@ body {
     transform: translate(-50%, -50%); }
   .header__h {
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    backface-visibility: hidden; }
     .header__h-primary {
       text-transform: uppercase;
       display: block;
@@ -71,7 +72,18 @@ body {
     opacity: 1;
     transform: translateX(0); } }
 
-.btn {
+@keyframes paeenBeBala {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem); }
+  80% {
+    transform: translateY(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.btn:link,
+.btn:visited {
   text-transform: uppercase;
   display: inline-block;
   padding: 1rem 3rem;
@@ -80,6 +92,10 @@ body {
   border-radius: 10rem;
   letter-spacing: 2px;
   word-spacing: 2px; }
-  .btn--white {
-    background-color: #fff;
-    color: #000; }
+
+.btn--white {
+  background-color: #fff;
+  color: #000; }
+
+.btn--animated {
+  animation: paeenBeBala 2s; }
