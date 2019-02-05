@@ -8,6 +8,18 @@
   border-radius: 10rem;
   letter-spacing: 2px;
   word-spacing: 2px;
+
+  &:hover{
+    transform: translateY(-1rem);
+    transition: .5s;
+    box-shadow: 0 10px 20px $color-black;
+  }
+
+  &:active{
+    transform: translateY(-.5rem);
+    transition: .5s;
+    box-shadow: 0 5px 10px $color-black;
+  }
   
 }
 

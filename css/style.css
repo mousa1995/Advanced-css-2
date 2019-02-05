@@ -92,6 +92,16 @@ body {
   border-radius: 10rem;
   letter-spacing: 2px;
   word-spacing: 2px; }
+  .btn:link:hover,
+  .btn:visited:hover {
+    transform: translateY(-1rem);
+    transition: .5s;
+    box-shadow: 0 10px 20px #000; }
+  .btn:link:active,
+  .btn:visited:active {
+    transform: translateY(-0.5rem);
+    transition: .5s;
+    box-shadow: 0 5px 10px #000; }
 
 .btn--white {
   background-color: #fff;
