@@ -1,0 +1,16 @@
+.btn{
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  
+
+  &--white{
+    background-color: $color-white;
+    color: $color-black;
+  }
+}
