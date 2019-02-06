@@ -1,5 +1,11 @@
-@import './variables';
-@import './typography';
+@import './abstract/variables';
+@import './abstract/functions';
+@import './abstract/mixins';
+
+@import './base/grid';
+@import './base/utilities';
+@import './base/typography';
+
 
 
 @import './components/header';
