@@ -1,12 +1,28 @@
+// // COLORS
+// $color-primary: #55c57e;
+// $color-primary-light-header: #7ed56fd7;
+// $color-primary-light: #7ed56f;
+// $color-primary-dark-header: #28b845d5;
+// $color-primary-dark: #28b845;
+
+// $color-white: #fff;
+// $color-gray-dark: #777;
+// $color-black: #000;
+// $color-box-shadow: rgba(0, 0, 0, 0.35);
+
 // COLORS
 $color-primary: #55c57e;
-$color-primary-light-header: #7ed56fd7;
 $color-primary-light: #7ed56f;
-$color-primary-dark-header: #28b845d5;
 $color-primary-dark: #28b845;
+
+$color-gray-light-1: #f7f7f7;
 
 $color-white: #fff;
 $color-gray-dark: #777;
 $color-black: #000;
 $color-box-shadow: rgba(0, 0, 0, 0.35);
 
+//GRID
+$grid-width: 114rem;
+$gutter-horizontal: 8rem;
+$gutter-vertical: 6rem;
