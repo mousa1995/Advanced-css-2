@@ -185,6 +185,34 @@ body {
 .btn--animated {
   animation: paeenBeBala 2s; }
 
+.composition {
+  position: relative;
+  transition: all .2s; }
+  .composition__photo {
+    position: absolute;
+    display: table;
+    content: "";
+    clear: both;
+    transition: all .2s;
+    z-index: 1;
+    border-radius: 2px; }
+    .composition__photo--1 {
+      top: -2rem;
+      left: 0; }
+    .composition__photo--2 {
+      top: 2rem;
+      right: 0; }
+    .composition__photo--3 {
+      right: 20%;
+      top: 10rem; }
+    .composition__photo:hover {
+      transform: scale(1.05);
+      z-index: 2;
+      outline: 2rem solid #55c57e;
+      outline-offset: 2rem; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.95); }
+
 .about {
   background-color: #f7f7f7;
   padding: 20rem 0;
