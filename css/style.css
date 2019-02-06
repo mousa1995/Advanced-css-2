@@ -185,6 +185,25 @@ body {
 .btn--animated {
   animation: paeenBeBala 2s; }
 
+.btn-text {
+  font-size: 1.6rem;
+  color: #55c57e;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57e;
+  padding: .3rem;
+  padding-bottom: .3rem;
+  transition: all .2s;
+  display: inline-block;
+  text-transform: uppercase; }
+  .btn-text:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-color: #55c57e; }
+  .btn-text:active {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
 .composition {
   position: relative;
   transition: all .2s; }
